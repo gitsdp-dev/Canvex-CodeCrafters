@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://canvex.app/sitemap.xml
+
+# Block unnecessary/system paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /api/
+
+# Optional crawl delay
+Crawl-delay: 5
